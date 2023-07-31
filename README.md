@@ -1,7 +1,7 @@
 # Happy Dessert Factory Website Redesign
 
 ## Live Website
-[a link](https://happydessertfactory.netlify.app/)
+[Explore the Website Here!](https://happydessertfactory.netlify.app/)
 
 ## Website Pages 
 ### Home Page
