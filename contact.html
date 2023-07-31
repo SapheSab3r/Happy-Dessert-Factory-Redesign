@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Anqi Chen">
+    <meta name="keywords" content="Happy Day Dessert Factory">
+    <meta name="description" content="Happy Day Dessert Factory">
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/contact.css">
+    <!-- external reference for js files -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <!-- <script src="js/moment.min.js"></script> -->
+    <script src="js/scripts.js"></script>
+    <!-- adding the font-awesome icons  -->
+    <script src="https://kit.fontawesome.com/bc65c4255d.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Happy Day Dessert Factory</title>
+</head>
+<header>
+    <nav class="navbar">
+        <div class="left">
+            <ul class="links">
+                <li class="left"><a href="index.html">Home</a></li>
+                <li class="left"><a href="menu.html">Menu</a></li>
+                <li class="left"><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/newLogo.png" alt="logo of Happy Day Dessert Factory" width="100">
+        </div>
+
+        <div class="right">
+            <ul class="links">
+                <li class="right"><a href="index.html#About">About Us</a></li>
+                <li class="right"><a href="index.html#Reviews">Reviews</a></li>
+                <li class="right"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="location">
+    <div class="loc-left">
+        <div class="loc">
+            <h2 class="loc-head">Our Location</h2>
+            <p class="loc-text">906A Western Ave. Pittsburgh,</p>
+            <p class="loc-text"> PA 15233, United States, Pennsylvania</p>
+        </div>
+        <div class="op">
+            <h2 class="loc-head">Operation Time</h2>
+            <p class="loc-text">Take out & Dine in In Available </p>
+            <p class="loc-text2">Daily 12pm - 8pm</p>
+            <p class="loc-text2-1" ><a href="mailto:info@happydaydessertfactory.com">info@happydaydessertfactory.com</a></p>
+            <p class="loc-text">412-872-0117</p>
+        </div>
+    </div>
+    <div class="loc-right">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0508731447208!2d-80.0191461847869!3d40.452010979360935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f40460f311f9%3A0x931aae163c4a37c!2s906a%20Western%20Ave%2C%20Pittsburgh%2C%20PA%2015233!5e0!3m2!1sen!2sus!4v1680068094148!5m2!1sen!2sus"
+                width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="Contact">
+    <div class="heading-con">
+        <h2>Lets' Stay in Touch</h2>
+    </div>
+    <div class="form-section">
+
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <label for="Name">Please provide your name (required):</label><br>
+            <input type="text" id="Name" size="20" maxlength="250" minlength="2" required> <br><br>
+
+            <label for="email">Please provide your email address (required):</label> <br>
+            <input type="email" id="email" name="email" placeholder="abc@defg.com" maxlength="254" required> <br><br>
+
+            <label for="zipcode">Please provide your 5-digit zipcode (optional):</label> <br>
+            <input type="text" id="zipcode" name="zipcode" pattern="[0-9]{5}" maxlength="5"> <br><br>
+
+            <label for="select">How did you find out about me?</label><br>
+            <select id="select">
+                <option value="Google">Social Media</option>
+                <option value="News article">Events</option>
+                <option value="Friend">Friends</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+
+            <label for="phone">Please provide your phone number (required)</label><br>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+            <small>Format: 123-456-7890</small>
+            <br><br>
+
+            <label for="message">How can I help you? Please provide your message below:</label> <br>
+            <textarea id="message" name="message" rows="10" cols="50"  minlength="10" maxlength="1000"></textarea><br><br>
+
+            <label for="checkbox" class="checkbox"> Please indicate if you want to recieve updates via
+                email (optional):</label> <br>
+            <input type="checkbox" id="checkbox" name="updates">
+            <label for="checkbox">please update me! </label> <br><br>
+
+
+            <!-- button -->
+            <div class="container">
+                <div class="button-container" id="button-container">
+                    <input type="submit" value="Submit" class="button-text">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+
+
+
+
+<footer>
+    <table>
+        <thead>
+            <tr>
+                <th id="title" class="first-column">Happy Day Dessert Factory</th>
+                <th class="sec-head">Location</th>
+                <th class="sec-head">Contact</th>
+                <th class="sec-head">Follow</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia
+                    odio vitae vestibulum
+                    vestibulum. lor</td>
+                <td>906a Western Ave</td>
+                <td>(412) 872-0117</td>
+                <td><a href="https://www.facebook.com/happydaydessertfactory/" target="_blank">Facebook</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Pittsburgh, PA </td>
+                <td>info@happydaydessertfactory.com</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>United States</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="last">
+        &copy; Happy Day Dessert Factory<br>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Anqi Chen">
+    <meta name="keywords" content="Happy Day Dessert Factory">
+    <meta name="description" content="Happy Day Dessert Factory">
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/filter.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/aboutbtn.css">
+    <!-- external reference for js files -->
+    <script src="js/anime.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- adding the font-awesome icons  -->
+    <script src="https://kit.fontawesome.com/bc65c4255d.js" crossorigin="anonymous"></script>
+
+    <title>Happy Day Dessert Factory</title>
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="left">
+            <ul class="links">
+                <li class="left"><a class="active" href="index.html">Home</a></li>
+                <li class="left"><a href="#Menu">Menu</a></li>
+                <li class="left"><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/newLogo.png" alt="logo of Happy Day Dessert Factory" width="100">
+        </div>
+
+        <div class="right">
+            <ul class="links">
+                <li class="right"><a href="#About">About Us</a></li>
+                <li class="right"><a href="#Reviews">Reviews</a></li>
+                <li class="right"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+    </nav>
+</header>
+
+<div class="main">
+    <div class="left-main">
+        <h1>Indulge in <br>a World of Flavors</h1>
+        <i class="fa-solid fa-star one"></i>
+        <i class="fa-solid fa-star two"></i>
+        <div class="small-text">
+            <i class="fa-regular fa-face-grin-wink"></i>
+            <p>100% Premium Homemade <br> Hard Ice Cream</p>
+        </div>
+        <a href="#Menu" class="green-button menu">View Menu</a>
+
+
+    </div>
+    <div class="right-main">
+        <i class="fa-solid fa-star three"></i>
+        <i class="fa-solid fa-star four"></i>
+        <i class="fa-solid fa-star five"></i>
+        <div class="circle"></div>
+        <img class="ice-cream" src="images/iceCream.png" alt="iceCream" width="500">
+        <div class="pop-text">Gift Cards Available! </div>
+        <i class="fa-solid fa-star six"></i>
+        <i class="fa-solid fa-star seven"></i>
+    </div>
+</div>
+
+<!-- source for the animation found in: https://www.youtube.com/watch?v=2wr1iixy20I -->
+<div id="About">
+    <div class="heading-flav">
+        <h2>About Us</h2>
+    </div>
+
+    <svg viewBox="0 0 215 60">
+        <polygon class="polymorph" points="215,60 0 60 0, 0 47.7, 0 215,0" />
+    </svg>
+    <div class="video">
+        <video src="images/video.mp4" controls></video>
+        <button id="cta2"> Close</button>
+    </div>
+
+
+    <div class="about-container">
+        <div class="text">
+            <div class="top-text">
+                <p> Happy Day Dessert Factory is a new and exciting brand and 12+ years of experience in the frozen
+                    dessert
+                    industry has been used to place a fresh twist on a familiar treat.</p>
+            </div><br>
+
+
+            <div class="text-list">
+                <p>The majority of our most popular menu items are available for catering, including our cakes and
+                    cookies.
+                    Our venue is also available to be rented to host private functions during both regular and
+                    nonregular business hours.
+                </p>
+                <br>
+            </div><br>
+
+            <div class="bottom-text">
+                <p>Our product line consists of Cones, Cookies, Shakes & Cakes. Happy Day Dessert Factory will
+                    become
+                    part of a lifestyle and this is promoted by the slogan, Smiles made fresh daily!!!</p><br>
+            </div>
+            <span class="text-span"><a
+                    href="https://www.pittsburghmagazine.com/happy-day-dessert-factory-brings-frozen-delights-to-the-north-side/" target="_blank">Read
+                    Article</a></span><br><br>
+            <span class="text-span">Operation Hour: Daily 12pm - 8pm</span>
+        </div>
+        <div class="about-img">
+            <img src="images/shopPic.jpg" alt="Picture of the happydaydessertfactory shop">
+        </div>
+    </div>
+
+    <div class="btn">
+        <button class="green-button" id="cta">Watch Video</button>
+    </div>
+    <script src="js/about.js"></script>
+
+
+</div>
+
+<!-- filter resource used: https://www.youtube.com/watch?v=ZjrqnxDEkzA&t=157s -->
+<div id="Menu">
+    <div class="heading-fea">
+        <h2>Featured Menu</h2>
+    </div>
+
+    <div class="filter">
+        <a href="#all" class="list active" data-filter="all">ALL</a>
+        <a href="#IceCream" class="list" data-filter="icecream">Ice-Creams</a>
+        <a href="#Cake" class="list" data-filter="cake">Cakes</a>
+        <a href="#Drink" class="list" data-filter="drink">Drinks</a>
+
+    </div>
+
+    <div id="#Menu" class="gallery">
+        <div class="product icecream">
+            <img src="/images/ApplePie.webp" alt="apple pie">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Apple Pie</h3>
+                </div>
+                <div class="des">
+                    <p>Apples and Cinnamon captured perfectly on a cone!</p>
+                    <p class="price">$3.60</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product icecream">
+            <img src="/images/CherryVanilla.webp" alt="Cherry Vanilla">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Cherry Vanilla</h3>
+                </div>
+                <div class="des">
+                    <p>A piece of cherry in every bite without ever having to worry about the seeds!</p>
+                    <p class="price">$3.60</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product icecream">
+            <img src="/images/chocolate-Icecream.webp" alt="chocolate Icecream">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Triple Chocolate Mousse</h3>
+                </div>
+                <div class="des">
+                    <p>Dark Chocolate, Milk Chocolate and Semi-Sweet chocolate all mixed into a chocolate mousse
+                        base to brighten your day!</p>
+                    <p class="price">$3.60</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product drink">
+            <img src="/images/LemonWaterIce.png" alt="Lemon Water Ice">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Lemon Water Ice</h3>
+                </div>
+                <div class="des">
+                    <p>Fresh lemons blended to refreshing perfection!</p>
+                    <p class="price">$3.00</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product drink">
+            <img src="/images/Mongo.png" alt="Mango Water Ice">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Mango Water Ice</h3>
+                </div>
+                <div class="des">
+                    <p>Blended puree and fresh mango mixed together perfectly!</p>
+                    <p class="price">$3.00</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product drink">
+            <img src="/images/AlmondMilk.png" alt="Almond Milk Soft Serve">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Almond Milk Soft Serve</h3>
+                </div>
+                <div class="des">
+                    <p>Dairy Free Soft Serve great for Vegans!</p>
+                    <p class="price">$3.60</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product cake">
+            <img src="/images/birthdayBash.webp" alt="birthday bash">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Birthday Bash</h3>
+                </div>
+                <div class="des">
+                    <p>Yellow Cake, Birthday Cake Premium Hard Ice Cream, Vanilla Frozen Custard Icing and decorated
+                        with Rainbow Sprinkles.</p>
+                    <p class="price">$36.00</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product cake">
+            <img src="/images/toffeeCoffee.webp" alt="Toffee Coffee">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Toffee Coffee</h3>
+                </div>
+                <div class="des">
+                    <p>Chocolate Cake, Heath Premium Hard Ice Cream, Chocolate Frozen Custard Icing decorated with
+                        Heath Bar Crumbs.</p>
+                    <p class="price">$36.00</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="product cake">
+            <img src="/images/strawberryCake.webp" alt="Strawberry Short Cake">
+            <div class="des-container">
+                <div class="pro-name">
+                    <h3>Strawberry Short Cake</h3>
+                </div>
+                <div class="des">
+                    <p>Yellow Cake, Strawberry Premium Hard Ice Cream, Vanilla Frozen Custard Icing decorated with
+                        fresh strawberry topping.</p>
+                    <p class="price">$36.00</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="btn-1">
+        <a href="/menu.html" class="green-button menu">View More</a>
+    </div>
+</div>
+
+<div id="Reviews">
+    <div class="heading-re">
+        <h2>Reviews</h2>
+    </div>
+    <div class="p-1">
+        <div class="box">
+            <div class="img-star">
+                <img src="images/photo1.png" alt="" class="icon">
+                <div class="stars">
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                </div>
+            </div>
+            <i class="fa-solid fa-quote-left"></i>
+            <p>The best ice cream I ever had .. especially the apple pie, and cobbler ice cream.</p>
+            <i class="fa-solid fa-quote-right"></i>
+
+        </div>
+        <div class="box">
+            <div class="img-star">
+                <img src="images/photo2.png" alt="" class="icon">
+                <div class="stars">
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                </div>
+            </div>
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Such a gem on the North side! Locally owned and high quality. My favorite ice cream spot!</p>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <div class="box">
+            <div class="img-star">
+                <img src="images/photo3.png" alt="" class="icon">
+                <div class="stars">
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                    <i class="fa-solid fa-star re"></i>
+                </div>
+            </div>
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Deliciousness abounds at Happy Day Dessert Factory!</p>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+
+    </div>
+</div>
+
+
+<footer>
+    <table>
+        <thead>
+            <tr>
+                <th id="title" class="first-column">Happy Day Dessert Factory</th>
+                <th class="sec-head">Location</th>
+                <th class="sec-head">Contact</th>
+                <th class="sec-head">Follow</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia
+                    odio vitae vestibulum
+                    vestibulum. lor</td>
+                <td>906a Western Ave</td>
+                <td>(412) 872-0117</td>
+                <td><a href="https://www.facebook.com/happydaydessertfactory/" target="_blank">Facebook</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Pittsburgh, PA </td>
+                <td>info@happydaydessertfactory.com</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>United States</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="last">
+        &copy; Happy Day Dessert Factory<br>
+    </div>
+</footer>
+
+
+
+
+
+</html>

@@ -1,0 +1,105 @@
+.menu {
+    margin: 1em;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-color: #FFF8F2;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
+.menu .pro {
+    padding-top: 10px;
+    background-color: #FFF8F2;
+}
+
+.menu h2,
+.menu .pro,
+.menu-item1,
+.menu .pro * {
+    background-color: #FFF8F2;
+}
+
+.menu-container {
+    margin-top: 1.2em;
+    background-color: #FFF8F2;
+}
+
+.ic-fla {
+    font-size: 30px;
+    font-family: 'Merriweather';
+    color: #383737;
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    background-color: #FFF8F2;
+}
+
+.ic-fla::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #383737;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.ic-fla::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #383737;
+    opacity: 0.8;
+    margin-bottom: 10px;
+
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #FFF8F2;
+}
+
+.menu-container .pro {
+    width: 73%;
+    display: flex;
+    lex-direction: row;
+    background-color: #FFF8F2;
+}
+
+.menu-container .pro h2 {
+    font-size: 20px;
+    color: #383737;
+    display: flex;
+    vertical-align: middle;
+    background-color: #FFF8F2;
+}
+
+.menu-container .pro-t {
+    margin-top: 3em;
+    background-color: #FFF8F2;
+}
+
+.menu-container img {
+    width: 20%;
+    border-radius: 8px;
+    border: solid 3px #F97373;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1.5em;
+    background-color: #FFF8F2;
+}
+
+.f-price {
+    margin-top: 3em;
+    font-size: 22px;
+    background-color: #FFF8F2;
+}
+
+#small-tag {
+    margin-top: 1.2em;
+    font-size: 22px;
+    background-color: #FFF8F2;
+}

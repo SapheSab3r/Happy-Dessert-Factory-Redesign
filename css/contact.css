@@ -1,0 +1,191 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background-color: #FFF8F2;
+}
+
+form {
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: left;
+    background-color: #FFF8F2;
+    font-family: 'Inter';
+    justify-content: start;
+}
+
+input,
+select,
+textarea {
+    background-color: rgb(166, 166, 166, 0.3);
+    border: transparent;
+    margin-top: 1em;
+    border-radius: 2%;
+    padding: 12px;
+    width: 110%;
+    font-size: 15px;
+}
+
+#checkbox {
+    padding: 10px;
+    width: 20%;
+}
+
+small {
+    background-color: #FFF8F2;
+    font-size: 15px;
+    color: #383737;
+}
+
+.loc {
+    margin-bottom: 5em;
+}
+
+.loc-head {
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 500;
+    color: #383737;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.loc-text,
+.loc-text2,
+.loc-text3,
+.loc-text2-1 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.loc-text2, .loc-text2-1 {
+    text-decoration: underline;
+}
+
+.loc-text2-1{
+    margin-top: 1em;
+}
+.loc-text2-1 a{
+    color: #383737;
+    
+}
+
+.loc-text2-1:hover{
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.loc-text3 {
+    margin-top: 2em;
+}
+
+select {
+    width: 30%;
+}
+
+.heading-con h2 {
+    padding-top: 1em;
+}
+
+#Contact {
+    background-color: #FFF8F2;
+    padding-bottom: 0em;
+    justify-content: center;
+}
+
+.button-container {
+    text-align: center;
+    background-color: #FFF8F2;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF8F2;
+}
+
+fieldset {
+    text-align: left;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+label {
+    font: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #FFF8F2;
+    font-size: 18px;
+    color: #383737;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-bottom: 2em;
+    background-color: #FFEDE0;
+}
+
+.map iframe {
+    border-radius: 2%;
+    border: solid 4px #FFA9A9;
+}
+
+.map {
+    border-radius: 2%;
+    border: solid 4px #FFA9A9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.button-container {
+    background-color: #75CEC4;
+    color: #383737;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    filter: drop-shadow(2px 4px 2px rgb(56, 55, 55, 0.35));
+}
+
+.button-container:hover {
+    background-color: #75CEC4;
+    color: #FFEDE0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    filter: none;
+    box-shadow: inset 0px 4px 9px rgb(56, 55, 55, 0.35);
+}
+
+.button-text {
+    color: white;
+    padding: 0;
+    margin-top: 0;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.button-text:hover {
+    cursor: pointer;
+    color: white;
+    padding: 0;
+    margin-top: 0;
+    background-color: transparent;
+    font-size: 18px;
+}
+
